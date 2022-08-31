@@ -8,12 +8,15 @@
     "success_url": "/",
     "env": {
         "ADMIN_USERNAME": {
+            "value": "jinglishi0206",
             "description": "The user name for the admin account."
         },
         "ADMIN_EMAIL": {
+            "value": "jingli.shi@aut.ac.nz",
             "description": "The contact email address for the admin account."
         },
         "ADMIN_PASSWORD": {
+            "value": "Aut@880128",
             "description": "The password for the admin account."
         },
         "SECRET_KEY": {
