@@ -43,8 +43,6 @@ echo "Starting celery"
 celery --app=config worker --loglevel=INFO --concurrency="${CELERY_WORKERS:-1}" &
 celery_pid="$!"
 
-
-
 while :; do
   if [[ ! -e "/proc/${celery_pid}" ]]; then
     echo "celery crashed" >&2
