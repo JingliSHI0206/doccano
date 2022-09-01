@@ -43,6 +43,11 @@ echo "Starting celery"
 celery --app=config worker --loglevel=INFO --concurrency="${CELERY_WORKERS:-1}" &
 celery_pid="$!"
 
+echo "Starting flower"
+if [[ -n "${FLOWER_BASIC_AUTH}" ]]; then
+  celery --app=config flower --basic_auth="${FLOWER_BASIC_AUTH}" &
+fi
+
 while :; do
   if [[ ! -e "/proc/${celery_pid}" ]]; then
     echo "celery crashed" >&2
