@@ -2,4 +2,4 @@ build:
   docker:
     web: docker/Dockerfile.heroku
 run:
-  web: /doccano/tools/heroku.sh
+  web: /doccano/tools/run.sh
