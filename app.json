@@ -17,9 +17,9 @@
             "description": "The value to use as the Django secret key.",
             "generator": "secret"
         },
-        "GOOGLE_TRACKING_ID": {
+        "GOOGLE_ENTRYPOINT": {
             "description": "Google Analytics tracking id.",
-            "required": false,
+            "required": true,
             "value": ""
         },
         "DEBUG": {
