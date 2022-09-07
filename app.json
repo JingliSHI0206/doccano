@@ -2,7 +2,7 @@
     "name": "doccano",
     "env": {
         "ADMIN_USERNAME": {
-            "value": "jinglishi0206",
+            "value": "admin",
             "description": "The user name for the admin account."
         },
         "ADMIN_EMAIL": {
@@ -10,7 +10,7 @@
             "description": "The contact email address for the admin account."
         },
         "ADMIN_PASSWORD": {
-            "value": "Aut@880128",
+            "value": "admin",
             "description": "The password for the admin account."
         },
         "SECRET_KEY": {
