@@ -1,1 +1,1 @@
-web: docker/Dockerfile
+web: /doccano/tools/run.sh
