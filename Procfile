@@ -1,1 +1,1 @@
-web: echo "$PWD"
+web: ls
