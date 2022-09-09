@@ -1,1 +1,1 @@
-web: echo pwd
+web: echo "$PWD"
