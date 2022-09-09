@@ -1,1 +1,1 @@
-web: /tools/run.sh
+web: ls tools/
