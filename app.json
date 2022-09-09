@@ -26,11 +26,6 @@
             "description": "Allow users to signup themselves or not",
             "required": false,
             "value": "True"
-        },
-         "PORT": {
-            "description": "listening port",
-            "required": false,
-            "value": "8000"
         }
     },
     "options": {
